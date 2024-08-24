@@ -10,7 +10,7 @@ export default function Navbar() {
           </h1>
         </div>
       </Link>
-      <ul className="flex list-none items-center space-x-6 text-gray-800 font-semibold">
+      <ul className="flex list-none items-center space-x-6 mr-5 text-gray-800 font-semibold">
         <Link to={'/'}>
           <li className="cursor-pointer">Home</li>
         </Link>

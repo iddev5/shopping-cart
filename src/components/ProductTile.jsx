@@ -13,7 +13,7 @@ export default function ProductTile({data}) {
     dispatch(removeFromCart(data.id))
   }
   
-  return <div className="group flex flex-col items-center border-2 p-4 h-[360px] mt-10, ml-5 rounded-xl">
+  return <div className="group flex flex-col items-center border-2 p-4 h-[360px] mt-5 mx-2 rounded-xl">
     <div className="h-[180px]">
       <img className="object-cover h-full w-full" src={data.image} alt={data.title} />
     </div>
